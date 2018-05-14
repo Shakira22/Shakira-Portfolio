@@ -1,1 +1,158 @@
+* {
+    box-sizing: border-box;
+}
+
+.body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color:#F9E7E7;
+}
+
+/* Style the header */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #A6A6A8;
+    color: white;
+}
+
+/* Increase the font size of the h1 element */
+.header h1 {
+    font-size: 40px;
+}
+
+
+#mySidenav a {
+    position: absolute;
+    left: -80px;
+    transition: 0.3s;
+    padding: 15px;
+    width: 100px;
+    text-decoration: none;
+    font-size: 20px;
+    color: none;
+    border-radius: 0 5px 5px 0;
+}
+
+#mySidenav a:hover {
+    left: 0;
+     
+}
+
+#Home {
+    top: 20px;
+    background-color: #D2CBCB;
+    color: #F9E7E7;
+}
+.body1 {
+    height: 100%;
+    margin: 0;
+}
+
+.bg {
+    /* The image used */
+    background-image: url(/Images/coding.jpg);
+
+    /* Full height */
+    height: 100%; 
+
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+#About {
+    top: 80px;
+    background-color: #ADA0A6;
+    color: #F9E7E7;
+    container: -80px;
+}
+
+.footer-a {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #F9E7E7;
+   color: white;
+   text-align: center;
+   flex: 30%; 
+   padding: 30px;
+}
+.img {
+    border-radius: 50%;
+    left: 10px;
+    margin: -100px;
+}
+#heading2{
+     text-align: center;
+}
+#Projects {
+    top: 140px;
+    background-color: #826C7F;
+    color: #F9E7E7;
+}
+.footer-b {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #F9E7E7;
+   color: white;
+   text-align: center;
+   flex: 30%; 
+   padding: 30px;
+}
+#Media {
+    top: 200px;
+    background-color: #555;
+    color: #F9E7E7;
+}
+.footer-c {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #F9E7E7;
+   color: white;
+   text-align: center;
+   flex: 30%; 
+   padding: 30px;
+}
+
+   /* Column container */
+.row { 
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+.side {
+    flex: 30%; /* Set the width of the sidebar */
+    background-color: #f1f1f1; /* Grey background color */
+    padding: 20px; /* Some padding */
+}
+
+/* Main column */
+.main { 
+    flex: 70%; /* Set the width of the main content */
+    background-color: white; /* White background color */
+    padding: 62px; /* Some padding */
+}
+.footer {
+   position: relative;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #F9E7E7;
+   color: white;
+   text-align: center;
+   flex: 30%; 
+   padding: 30px;
+}
+
+
 
